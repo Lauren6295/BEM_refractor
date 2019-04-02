@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h1 class="header__title">Upcoming Events and Activities</h1>
+      <p class="header__parragraph">We've got a full schedule. Follow us to see if Geaeheads are hosting exciting events in your area.</p>
+    </div>
+  <!--*******************************************************************************************************-->
+  <div class="container">
+    <div class="container__images">
+
+      <div class="slides">
+        <div class="slide__number">1 / 5</div>
+        <img class="slide__images" src="images2/bg-event-1.jpg">
+          <div class="slide__textOver" >
+            <div class="nextEventSquare">
+              <h3>Next Event</h3>
+            </div>
+            <h3 class="overTitle" >Jan 26th</h3>
+            <p class="overParragrapg">Rock to ICE CLINIC  Ouray Ice Climbing Festival <br><br> <b>-Ouray Ice Park</b></p>
+            
+            <div class="footerLine" >
+              <p class="eventDetails" >Get Event Details</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="slides">
+        <div class="slide__number">2 / 5</div>
+        <img class="slide__images" src="images2/bg-event-2.jpg">
+        <div class="slide__textOver" >
+            <h3 class="overTitle" >Jan 30th - Feb 1st</h3>
+            <p class="overParragrapg">Rock to ICE CLINIC  Ouray Ice Climbing Festival <br><br> <b>-Ouray Ice Park</b></p>
+          </div>
+      </div>
+
+      <div class="slides">
+        <div class="slide__number">3 / 5</div>
+        <img class="slide__images" src="images2/bg-event-3.jpg">
+        <div class="slide__textOver" >
+            <h3 class="overTitle" >Jan 26th</h3>
+            <p class="overParragrapg">Rock to ICE CLINIC  Ouray Ice Climbing Festival <br><br> <b>-Ouray Ice Park</b></p>
+          </div>
+      </div>
+        
+      <div class="slides">
+        <div class="slide__number">4 / 5</div>
+        <img class="slide__images" src="images2/bg-event-4.jpg">
+        <div class="slide__textOver" >
+            <h3 class="overTitle" >Jan 26th</h3>
+            <p class="overParragrapg">Rock to ICE CLINIC  Ouray Ice Climbing Festival <br><br> <b>-Ouray Ice Park</b></p>
+          </div>
+      </div>
+
+      <div class="slides">
+        <div class="slide__number">5 / 5</div>
+        <img class="slide__images" src="images2/bg-event-5.jpg">
+        <div class="slide__textOver" >
+            <h3 class="overTitle" >Jan 26th</h3>
+            <p class="overParragrapg">Rock to ICE CLINIC  Ouray Ice Climbing Festival<br><br> <b>-Ouray Ice Park</b></p>
+          </div>
+      </div>
+      <a class="prev" onclick="arrowSlides(-1)">❮</a>
+      <a class="next" onclick="arrowSlides(1)">❯</a>
+    </div>
+  <!--*******************************************************************************************************-->
+    
+  <!--*******************************************************************************************************-->
+    <div class="row">
+      <div class="row__demo row__cursor ">
+        <h3 class="row__titles" onclick="currentSlide(1)" alt="activities">
+          Jan 26th
+        </h3>
+        <p>Rock to ICE CLINIC  Ouray Ice Climbing Festival <br> -Ouray Ice Park</p>
+        <button>Get Event Details</button>
+      </div>
+
+      <div class="row__demo row__cursor">
+        <h3 class="row__titles" onclick="currentSlide(2)" alt="activities">
+          Jan 30th - Feb 1st
+        </h3>
+        <p>Outdoor Retailer Snow Show <br> -The Colorado Convention Center</p>
+        <button>Get Event Details</button>
+      </div>
+
+      <div class="row__demo row__cursor">
+        <h3 class="row__titles" onclick="currentSlide(3)" alt="activities">
+          Feb 1st
+        </h3>
+        <p>Berthoud Backcountry Bonanza <br> -Berthoud Pass</p>
+        <button>Get Event Details</button>
+      </div>
+
+      <div class="row__demo row__cursor">
+        <h3 class="row__titles" onclick="currentSlide(4)" alt="activities">
+          Feb 3rd
+        </h3>
+        <p>Fat biking Devil's Thumb Ranch<br> -Devil's Thumb Ranch Resort & Spa</p>
+        <button>Get Event Details</button>
+      </div>
+
+      <div class="row__demo row__cursor">
+        <h3 class="row__titles" onclick="currentSlide(5)" alt="activities">
+          Feb 4th - Feb 5th
+        </h3>
+        <p>SIA/WWSRA On-Snow Demo cursor<br> -Copper Mountain</p>
+        <button>Get Event Details</button>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

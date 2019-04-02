@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    margin-top: 100px;
+}
+.header{
+    text-align: center;
+}
+.header__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.header__parragraph {
+    font-size: 13px;
+}
+.row__titles {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman';
+}
+/*****************************************************/
+.container {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.slide__textOver {
+    position: absolute;
+    top: 100px;
+    color: white;
+    left: 20px;;
+}
+.overTitle {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman';
+}
+.overParragrapg {
+    font-size: 20px;
+}
+.footerLine {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(84, 202, 161);
+    margin-top: 410px;
+    margin-left: -20px;
+}
+.eventDetails {
+    line-height: 20px;
+    padding-right: 15px;
+    float: right;
+    font-size: 14px;
+}
+.nextEventSquare {
+    width: 120px;
+    height: 37px;
+    color: black;
+    margin-top: -70px;
+    padding-left: 8px;
+    background-color: rgb(84, 202, 161);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 38px;
+}
+/**********HIDE IMAGES*******************************************/
+.slides {
+    width: 500px;
+    height: 800px;
+    display: none;
+}
+.container__images{
+    width: 100%;
+    -webkit-filter: grayscale(40%);
+}
+
+/**********POINTER*******************************************/
+.row__cursor {
+    cursor: pointer;
+    width: 100%;
+}
+
+/*********NEXT & PREVIOUS********************************************/
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    padding: 16px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 5px 0 0 5px;
+    left: -47px;
+}
+
+/***************RIGHT BUTTON**************************************/
+.next {
+    left: 500px;
+    border-radius: 0 5px 5px 0;
+}
+
+/*************BUTTON TRANSPARENCY****************************************/
+.prev:hover,
+.next:hover {
+    background-color:rgb(228, 227, 227);
+}
+
+/**************(1/1)***************************************/
+.slide__number {
+    color: red;
+    font-size: 12px;
+    padding: 8px 12px;
+}
+/****************MONTHS*************************************/
+.container__images {
+    float: left;
+}
+.row {
+    width: 40%;
+    float: right;
+}
+button {
+    height: 30px;
+    border: solid black 2px;
+    background-color: white;
+    color: black;
+    line-height: 9px;
+    border-radius: 50px;
+    padding: 10px;
+}
